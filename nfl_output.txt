@@ -1,0 +1,84 @@
+Last run: 2023/05/27 - 17:13:27
+
+Full Alphabet
+['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+Letters not in Names
+['A', 'H', 'I', 'K', 'M', 'N', 'O', 'Q', 'U', 'W', 'X', 'Y', 'Z']
+
+Letters not in Locations
+['E', 'F', 'O', 'Q', 'R', 'U', 'V', 'X', 'Y', 'Z']
+
+Letters not in Names or Locations
+['O', 'Q', 'U', 'X', 'Y', 'Z']
+
+Team Names
+
+{'4': ['49ers'],
+ 'B': ['Bears', 'Buccaneers', 'Bills', 'Bengals', 'Browns', 'Broncos'],
+ 'C': ['Cardinals', 'Cowboys', 'Commanders', 'Colts', 'Chiefs', 'Chargers'],
+ 'D': ['Dolphins'],
+ 'E': ['Eagles'],
+ 'F': ['Falcons'],
+ 'G': ['Giants'],
+ 'J': ['Jaguars', 'Jets'],
+ 'L': ['Lions'],
+ 'P': ['Panthers', 'Packers', 'Patriots'],
+ 'R': ['Rams', 'Ravens', 'Raiders'],
+ 'S': ['Saints', 'Seahawks', 'Steelers'],
+ 'T': ['Texans', 'Titans'],
+ 'V': ['Vikings']}
+
+
+[('C', 6),
+ ('B', 6),
+ ('P', 3),
+ ('R', 3),
+ ('S', 3),
+ ('T', 2),
+ ('J', 2),
+ ('F', 1),
+ ('L', 1),
+ ('V', 1),
+ ('G', 1),
+ ('E', 1),
+ ('4', 1),
+ ('D', 1)]
+
+
+
+Team Locations
+{'A': ['Arizona', 'Atlanta'],
+ 'B': ['Baltimore', 'Buffalo'],
+ 'C': ['Carolina', 'Chicago', 'Cincinnati', 'Cleveland'],
+ 'D': ['Dallas', 'Detroit', 'Denver'],
+ 'G': ['Green Bay'],
+ 'H': ['Houston'],
+ 'I': ['Indianapolis'],
+ 'J': ['Jacksonville'],
+ 'K': ['Kansas City'],
+ 'L': ['Los Angeles', 'Las Vegas', 'Los Angeles'],
+ 'M': ['Minnesota', 'Miami'],
+ 'N': ['New Orleans', 'New York', 'New England', 'New York'],
+ 'P': ['Philadelphia', 'Pittsburgh'],
+ 'S': ['San Francisco', 'Seattle'],
+ 'T': ['Tampa Bay', 'Tennessee'],
+ 'W': ['Washington']}
+
+
+[('C', 4),
+ ('N', 4),
+ ('D', 3),
+ ('L', 3),
+ ('A', 2),
+ ('M', 2),
+ ('P', 2),
+ ('S', 2),
+ ('T', 2),
+ ('B', 2),
+ ('G', 1),
+ ('W', 1),
+ ('H', 1),
+ ('I', 1),
+ ('J', 1),
+ ('K', 1)]
