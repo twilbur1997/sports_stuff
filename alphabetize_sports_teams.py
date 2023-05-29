@@ -1,5 +1,6 @@
 import pprint
 from datetime import datetime
+from sys import argv
 
 
 nfl_teams = [
@@ -33,12 +34,28 @@ nba_teams = [
 "Portland Trail Blazers","Utah Jazz","Golden State Warriors","LA Clippers","Los Angeles Lakers","Phoenix Suns",
 "Sacramento Kings","Dallas Mavericks","Houston Rockets","Memphis Grizzlies","New Orleans Pelicans","San Antonio Spurs"]
 
+sports_dict = {
+    "mlb_teams": mlb_teams,
+    "nba_teams": nba_teams,
+    "nfl_teams": nfl_teams,
+    "nhl_teams": nhl_teams
+}
 # Most common across MLB, NFL, NHL, NBA?
-# Giants, Kings, Cardinals, Jets, Panthers, Rangers, 
+# Giants, Kings, Cardinals, Jets, Panthers, Rangers 
 
-team_list = nhl_teams
-output_file = "nhl_output.txt"
+# WAYS TO CALL FUNCTION - Default followed by two examples with command line inputs
+# python3 alphabetize_sports_teams.py 
+# python3 alphabetize_sports_teams.py nfl_teams nfl_output.txt
+# python3 alphabetize_sports_teams.py mlb_teams mlb_output.txt
+
 name_exceptions_two_word = ["Sox","Blue Jays","Trail Blazers","Blue Jackets","Red Wings","Maple Leafs","Golden Knights"]
+
+if len(argv) > 1:
+    team_list = sports_dict[argv[1]]
+    output_file = argv[2]
+else:
+    team_list = nfl_teams
+    output_file = "nfl_output.txt"
 
 def alphabet():
     alphabet = []
